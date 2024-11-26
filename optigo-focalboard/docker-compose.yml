@@ -1,0 +1,12 @@
+services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: optigo-focalboard_focalboard_1
+      APP_PORT: 8000
+
+  focalboard:
+    ports:
+      - 8000:8000
+    restart: always
+    image: mattermost/focalboard

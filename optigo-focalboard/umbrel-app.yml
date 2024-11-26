@@ -1,10 +1,10 @@
 manifestVersion: 1
-id: optigo-docmost
-name: Docmost
+id: optigo-focalboard
+name: Focalboard
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "0.0.8"
+version: "0.0.1"
 port: 3015
 description: >-
   Self host Docmost on your Umbrel Home
