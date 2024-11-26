@@ -3,7 +3,7 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: optigo-docmost_docmost_1
-      APP_PORT: 3010
+      APP_PORT: 3000
 
   docmost:
     image: docmost/docmost:latest
@@ -11,12 +11,12 @@ services:
       - db
       - redis
     environment:
-      APP_URL: "http://localhost:3010"
+      APP_URL: "http://localhost:3000"
       APP_SECRET: "f8FaN3@Z9ywRqyRy!E68ekMBZCdcVgXE.UQXrR.Cd.ayk"
       DATABASE_URL: "postgresql://docmost:NPco7HYPcHrhVRAYNknAH_AKQVGwm3@nwz@db:5432/docmost?schema=public"
       REDIS_URL: "redis://redis:6379"
     ports:
-      - "3010:3000"
+      - "3000:3000"
     restart: unless-stopped
     volumes:
       - docmost:/app/data/storage
