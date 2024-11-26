@@ -4,17 +4,14 @@ name: Docmost
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "0.0.1"
+version: "0.0.2"
 port: 3010
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
+  Self host Docmost on your Umbrel Home
 
 developer: Umbrel
 website: https://umbrel.com
-submitter: Umbrel
+submitter: Bradders
 submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/getumbrel/umbrel-hello-world-app
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
