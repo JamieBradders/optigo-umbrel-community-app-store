@@ -13,7 +13,7 @@ services:
     environment:
       APP_URL: "http://localhost:3000"
       APP_SECRET: "f8FaN3@Z9ywRqyRy!E68ekMBZCdcVgXE.UQXrR.Cd.ayk"
-      DATABASE_URL: "postgresql://docmost:NPco7HYPcHrhVRAYNknAH_AKQVGwm3@nwz@db:5432/docmost?schema=public"
+      DATABASE_URL: "postgresql://docmost:NPco7HYPcHrhVRAYNknAHAKQVGwm3nwz@db:5432/docmost?schema=public"
       REDIS_URL: "redis://redis:6379"
     ports:
       - "3000:3000"
@@ -26,7 +26,7 @@ services:
     environment:
       POSTGRES_DB: docmost
       POSTGRES_USER: docmost
-      POSTGRES_PASSWORD: NPco7HYPcHrhVRAYNknAH_AKQVGwm3@nwz
+      POSTGRES_PASSWORD: NPco7HYPcHrhVRAYNknAHAKQVGwm3nwz
     restart: unless-stopped
     volumes:
       - db_data:/var/lib/postgresql/data
