@@ -4,7 +4,7 @@ name: Docmost
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "0.0.2"
+version: "0.0.3"
 port: 3010
 description: >-
   Self host Docmost on your Umbrel Home
