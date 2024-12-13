@@ -1,26 +1,31 @@
 manifestVersion: 1
 id: optigo-blinko
 name: Blinko
-tagline: Replace this tagline with your app's tagline
+tagline: Blinko - Open Source, Self-hosted
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "0.0.2"
 port: 1111
 description: >-
-  Self host Blinko on your Umbrel Home
+  Blinko is an innovative open-source project designed for individuals who
+  want to quickly capture and organize their fleeting thoughts. Blinko allows users to
+  seamlessly jot down ideas the moment they strike, ensuring that no spark
+  of creativity is lost.
 
 developer: Umbrel
-website: https://umbrel.com
+website: https://blinko.mintlify.app/introduction
 submitter: Bradders
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+submission: https://github.com/JamieBradders/optigo-umbrel-community-app-store
+repo: https://github.com/blinko-space/blinko/
+support: https://github.com/JamieBradders/optigo-umbrel-community-app-store/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://github.com/blinko-space/blinko/raw/main/public/home.png
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  ## Version 0.0.2
+
+  My first release of the Blinko software. At the time of release, this uses version
+  0.25.5 of Blinko.
+
 dependencies: []
 path: ""
 defaultUsername: ""
