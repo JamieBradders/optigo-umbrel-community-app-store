@@ -4,7 +4,7 @@ name: Blinko
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "0.0.1"
+version: "0.0.2"
 port: 1111
 description: >-
   Self host Blinko on your Umbrel Home
