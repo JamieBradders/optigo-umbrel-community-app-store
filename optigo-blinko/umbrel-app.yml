@@ -1,13 +1,13 @@
 manifestVersion: 1
-id: optigo-focalboard
-name: Focalboard
+id: optigo-blinko
+name: Blinko
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "0.0.1"
 port: 3015
 description: >-
-  Self host Docmost on your Umbrel Home
+  Self host Blinko on your Umbrel Home
 
 developer: Umbrel
 website: https://umbrel.com

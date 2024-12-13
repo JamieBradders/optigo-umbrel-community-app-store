@@ -1,0 +1,58 @@
+networks:
+  blinko-network:
+    driver: bridge
+
+services:
+  blinko-website:
+    image: blinkospace/blinko:latest
+    container_name: blinko-website
+    environment:
+      NODE_ENV: production
+      # NEXTAUTH_URL: http://localhost:1111
+      # NEXT_PUBLIC_BASE_URL: http://localhost:1111
+      NEXTAUTH_SECRET: ePxiS9WnT1
+      DATABASE_URL: postgresql://postgres:XDcONxlyRAn@postgres:5432/postgres
+    depends_on:
+      postgres:
+        condition: service_healthy
+    # Make sure you have enough permissions.
+    volumes:
+      - /docker/blinko/app:/app/.blinko
+    restart: always
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+    ports:
+      - 1111:1111
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://blinko-website:1111/"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    networks:
+      - blinko-network
+
+  postgres:
+    image: postgres:14
+    container_name: blinko-postgres
+    restart: always
+    ports:
+      - 5435:5432
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: XDcONxlyRAn
+      TZ: AAmerica/Detroit
+    # Persisting container data
+    # Make sure you have enough permissions.
+    volumes:
+      - /docker/blinko/db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres", "-d", "postgres"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+    networks:
+      - blinko-network
