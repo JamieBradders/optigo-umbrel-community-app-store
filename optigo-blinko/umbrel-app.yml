@@ -21,8 +21,6 @@ support: https://github.com/JamieBradders/optigo-umbrel-community-app-store/issu
 gallery:
   - https://github.com/blinko-space/blinko/raw/main/public/home.png
 releaseNotes: >-
-  ## Version 0.0.2
-
   My first release of the Blinko software. At the time of release, this uses version
   0.25.5 of Blinko.
 
