@@ -3,7 +3,7 @@ id: optigo-blinko
 name: Blinko
 tagline: Blinko - Open Source, Self-hosted
 icon: https://raw.githubusercontent.com/JamieBradders/optigo-umbrel-community-app-store/02f65cb90a59d1c83996fdfdaebe65fc7c5c87f2/icons/blinko.svg
-category: Development
+category: Productivity
 version: "0.0.2"
 port: 1111
 description: >-
