@@ -23,7 +23,7 @@ releaseNotes: >-
 
 dependencies: []
 scripts:
-  install: data/setup.sh
+  install: scripts/setup.sh
 path: ""
 defaultUsername: ""
 defaultPassword: ""
