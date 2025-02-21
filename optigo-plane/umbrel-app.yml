@@ -19,11 +19,11 @@ support: https://github.com/JamieBradders/optigo-umbrel-community-app-store/issu
 gallery:
   - https://camo.githubusercontent.com/1dc804fd6e5e177361c694cb889baf1616fb9069b693d5a8cc0746485600c0ab/68747470733a2f2f706c616e652d6d61726b6574696e672e73332e61702d736f7574682d312e616d617a6f6e6177732e636f6d2f706c616e652d726561646d652f706c616e655f73637265656e735f6461726b5f6d6f64652e77656270
 releaseNotes: >-
-  First attempt at plane.so on umbrel
+  Added an installation script to test.
 
 dependencies: []
 scripts:
-  install: scripts/setup.sh
+  install: data/setup.sh
 path: ""
 defaultUsername: ""
 defaultPassword: ""
