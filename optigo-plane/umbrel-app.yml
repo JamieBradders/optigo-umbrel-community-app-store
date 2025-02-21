@@ -4,7 +4,7 @@ name: Plane
 tagline: Plane - Open Source, Self-hosted
 icon: https://camo.githubusercontent.com/82feb9c8f8212561ecebe55b26622afa2b11e9943c698d3a28789f0bed77b651/68747470733a2f2f706c616e652d6d61726b6574696e672e73332e61702d736f7574682d312e616d617a6f6e6177732e636f6d2f706c616e652d726561646d652f706c616e655f6c6f676f5f2e77656270
 category: Productivity
-version: "0.0.2"
+version: "0.0.3"
 port: 1111
 description: >-
   Meet Plane, an open-source project management tool to track issues, run sprints cycles,
