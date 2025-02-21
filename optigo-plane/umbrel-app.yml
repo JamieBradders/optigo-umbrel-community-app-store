@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: optigo-plane
+name: Plane
+tagline: Plane - Open Source, Self-hosted
+icon: https://camo.githubusercontent.com/82feb9c8f8212561ecebe55b26622afa2b11e9943c698d3a28789f0bed77b651/68747470733a2f2f706c616e652d6d61726b6574696e672e73332e61702d736f7574682d312e616d617a6f6e6177732e636f6d2f706c616e652d726561646d652f706c616e655f6c6f676f5f2e77656270
+category: Productivity
+version: "0.0.2"
+port: 1111
+description: >-
+  Meet Plane, an open-source project management tool to track issues, run sprints cycles,
+  and manage product roadmaps without the chaos of managing the tool itself. 🧘‍♀️
+
+developer: Plane
+website: https://plane.so/
+submitter: Bradders
+submission: https://github.com/JamieBradders/optigo-umbrel-community-app-store
+repo: https://github.com/makeplane/plane
+support: https://github.com/JamieBradders/optigo-umbrel-community-app-store/issues
+gallery:
+  - https://camo.githubusercontent.com/1dc804fd6e5e177361c694cb889baf1616fb9069b693d5a8cc0746485600c0ab/68747470733a2f2f706c616e652d6d61726b6574696e672e73332e61702d736f7574682d312e616d617a6f6e6177732e636f6d2f706c616e652d726561646d652f706c616e655f73637265656e735f6461726b5f6d6f64652e77656270
+releaseNotes: >-
+  First attempt at plane.so on umbrel
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
