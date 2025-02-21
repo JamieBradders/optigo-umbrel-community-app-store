@@ -22,6 +22,8 @@ releaseNotes: >-
   First attempt at plane.so on umbrel
 
 dependencies: []
+scripts:
+  install: scripts/setup.sh
 path: ""
 defaultUsername: ""
 defaultPassword: ""
