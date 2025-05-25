@@ -1,0 +1,10 @@
+services:
+  web:
+    image: eigenfocus/eigenfocus:1.1.0-free
+    restart: unless-stopped
+    volumes:
+      - ./app-data:/eigenfocus-app/app-data
+    environment:
+      - DEFAULT_HOST_URL=http://localhost:3001
+    ports:
+      - 3001:3000
