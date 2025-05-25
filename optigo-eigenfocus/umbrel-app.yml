@@ -4,8 +4,8 @@ name: Eigenfocus
 tagline: Eigenfocus - Self Hosted Project Management, Planning and Time Tracker
 icon: https://eigenfocus.com/assets/logo-black-eaf146541e6576418c08823c10c4d1490dc3a3c93a066aebfc2a6b100e3555cc.svg
 category: Productivity
-version: "0.0.1"
-port: 4001
+version: "0.0.2"
+port: 3001
 description: >-
   Eigenfocus is your All-in-One project management, planning and time tracking tool.
 
@@ -18,7 +18,7 @@ support: https://github.com/JamieBradders/optigo-umbrel-community-app-store/issu
 gallery:
   - https://raw.githubusercontent.com/Eigenfocus/focus-assets/refs/heads/main/images/overview.gif
 releaseNotes: >-
-  Initial proof of concept
+  - Replaces the default port from 4001 to 3001. The wrong port was published to Umbrel.
 
 dependencies: []
 path: ""
