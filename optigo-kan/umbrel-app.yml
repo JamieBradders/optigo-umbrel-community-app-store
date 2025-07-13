@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: optigo-kan
+name: Kan
+tagline: Eigenfocus - Self Hosted Project Management, Planning and Time Tracker
+icon: https://avatars.githubusercontent.com/u/142905364
+category: Productivity
+version: "0.0.1"
+port: 3000
+description: >-
+  The open source Trello alternative.
+
+developer: kan.bn
+website: https://kan.bn/
+submitter: Bradders
+submission: https://github.com/JamieBradders/optigo-umbrel-community-app-store
+repo: https://github.com/eigenfocus/eigenfocus
+support: https://github.com/JamieBradders/optigo-umbrel-community-app-store/issues
+gallery:
+  - https://kan.bn/_next/image?url=%2Fhero-light.png&w=3840&q=75
+# releaseNotes: >-
+#   - Enter something here
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+# scripts:
+#   install: scripts/setup.sh
